@@ -11,15 +11,15 @@ const Navbar = () => {
       <ul className="nav-list m-0 p-0 flex text-[1.2rem]">
 
         <li className="nav-link px-2">
-          <Link href="/">Home</Link>
+          <Link href="/"><a draggable="false">Home</a></Link>
         </li>
 
         <li className="nav-link px-2">
-          <Link href="/about">About</Link>
+          <Link href="/about"><a draggable="false">About</a></Link>
         </li>
 
         <li className="nav-link px-2">
-          <Link href="/services">Services</Link>
+          <Link href="/services"><a draggable="false">Services</a></Link>
         </li>
       </ul>
 
