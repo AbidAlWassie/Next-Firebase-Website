@@ -21,6 +21,7 @@ const Navbar = () => {
         <li className="nav-link px-2">
           <Link href="/services"><a draggable="false">Services</a></Link>
         </li>
+        
       </ul>
 
     </nav>
