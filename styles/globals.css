@@ -23,6 +23,10 @@
     box-sizing: border-box;
   }
 
+  .container {
+    @apply flex justify-center flex-col mx-auto
+  }
+
 }
 
 @layer components {
@@ -56,7 +60,7 @@
   }
 
   .nav-list {
-    @apply h-full;
+    @apply h-full select-none;
   }
 
   .nav-link {
