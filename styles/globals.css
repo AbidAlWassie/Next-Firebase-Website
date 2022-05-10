@@ -26,7 +26,83 @@
 }
 
 @layer components {
+
+  .menuBtn {
+    @apply py-4 px-0 h-3 w-6 box-content cursor-pointer relative;
+  }
+
+  .menuBtn .bar {
+    @apply w-full h-[3px] rounded-[3px] absolute bg-white;
+  }
+
+  .menuBtn .bar:nth-child(1) {
+    @apply top-3 transition-all duration-200;
+  }
+
+  .menuBtn .bar:nth-child(2) {
+    @apply top-5 transition-all duration-200;
+  }
+
+  .menuBtn .bar:nth-child(3) {
+    @apply top-7 transition-all duration-200;
+  }
+
+  .menuBtn {
+    @apply absolute top-3 right-4 hidden;
+  }
+
+  .navbar {
+    @apply relative transition-all;
+  }
+
+  .nav-list {
+    @apply h-full;
+  }
+
+  .nav-link {
+    @apply opacity-100 transition-all duration-100;
+  }
+
+  .nav-link a {
+    @apply p-4;
+  }
   
-  .
+  @media (max-width: 1024px) {
+
+    .navbar {
+      @apply flex-col h-[68px];
+    }
+
+    .navbar.open {
+      @apply h-[250px] bg-slate-900
+    }
+
+    .navbar.open .nav-list {
+      @apply h-[250px] flex
+    }
+
+    .navbar.open .nav-link {
+      @apply my-4 opacity-100
+    }
+
+    .navbar .logo {
+      @apply py-4;
+    }
+
+    .menuBtn {
+      @apply block;
+    }
+
+    .nav-list {
+      @apply flex-col
+    }
+
+    .nav-link {
+      @apply my-4 opacity-0
+    }
+
+
+
+  }
 
 }
