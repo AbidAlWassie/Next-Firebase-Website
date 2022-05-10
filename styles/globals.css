@@ -82,7 +82,19 @@
     }
 
     .navbar.open .nav-link {
-      @apply my-4 opacity-100
+      @apply my-4 opacity-100 z-10
+    }
+
+    .navbar.open .menuBtn .bar:nth-child(1) {
+      @apply top-[50%] translate-y-[-50%] rotate-[-45deg] transition duration-200;
+    }
+
+    .navbar.open .menuBtn .bar:nth-child(2) {
+      @apply top-[50%] hidden transition duration-200;
+    }
+
+    .navbar.open .menuBtn .bar:nth-child(3) {
+      @apply bottom-[50%] translate-y-[-250%] rotate-[45deg] transition duration-200;
     }
 
     .navbar .logo {
@@ -98,7 +110,7 @@
     }
 
     .nav-link {
-      @apply my-4 opacity-0
+      @apply my-4 opacity-0 z-[-10]
     }
 
 
