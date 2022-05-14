@@ -4,7 +4,7 @@ import fetcher from '../../libraries/fetcher'
 
 const YouTubeCardVids = () => {
     const { data, error } = useSWR('/api/youtube', fetcher)
-    const videoCount = data?.videoCount ?? 47
+    const videoCount = data?.videoCount ?? 0
     return (
         <div>
             <div style={{ padding: '5px' }} className="shadow-border">
