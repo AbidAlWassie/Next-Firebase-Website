@@ -1,0 +1,21 @@
+[debug] [2022-05-13T20:34:01.697Z] ----------------------------------------------------------------------
+[debug] [2022-05-13T20:34:01.698Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-13T20:34:01.699Z] CLI Version:   10.9.2
+[debug] [2022-05-13T20:34:01.699Z] Platform:      win32
+[debug] [2022-05-13T20:34:01.699Z] Node Version:  v16.14.2
+[debug] [2022-05-13T20:34:01.699Z] Time:          Sat May 14 2022 02:34:01 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-05-13T20:34:01.700Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-13T20:34:01.706Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-13T20:34:01.706Z] > authorizing via signed-in user (abidalwassie@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abid\Documents\Web Development\Main\restaurant-site
+
