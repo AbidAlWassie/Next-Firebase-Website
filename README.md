@@ -1,4 +1,4 @@
-[Run Project](https://restaurant-website-roan.vercel.app/)
+[Run Project](https://next-firebase-website.vercel.app/)
 
 
 ## Getting Started
