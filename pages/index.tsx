@@ -1,8 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import YouTubeCardSubs from '../components/youtube/YouTubeCardSubs'
 import YouTubeCardViews from '../components/youtube/YouTubeCardViews'
 import YouTubeCardVids from '../components/youtube/YouTubeCardVids'
+import GitHubCardFollowers from '../components/github/GitHubCardFollowers'
+import GitHubCardProjects from '../components/github/GitHubCardProjects'
+import GitHubCardForks from '../components/github/GitHubCardForks'
 
 export default function Home() {
   return (
@@ -22,7 +23,21 @@ export default function Home() {
         <div className="row">
           <YouTubeCardVids />
         </div>
+
       </div>
+      
+      <div className="rows">
+        <div className="row">
+          <GitHubCardFollowers />
+        </div>
+        <div className="row">
+          <GitHubCardProjects />
+        </div>
+        <div className="row">
+          <GitHubCardForks />
+        </div>
+      </div>
+
     </div>
   )
 }
